@@ -48,11 +48,23 @@ The Maps tree should have two entries: one for a map and one for an area within 
 
 ##### On the Maps toolbar, click the New Area button in order to add a second area within the map.
 
+![](./img/Ex04-01.png)
+
 ##### As before, by default, it will be labeled “New Area”. Change this area’s text to read: “LULC Classification”.
+
+![](./img/Ex04-02.png)
+
+![](./img/Ex04-03.png)
 
 ##### Select this newly created area (it will be highlighted) then on the maps toolbar, select the the Add Layer Wizard button.
 
+![](./img/Ex04-04.png)
+
 ##### From the Add Layer Wizard select the Pseudocolor option then click next>. A list of all the available image channels in irvine.pix will appear in the list box. Select channel 6 (USGS Land Use / Land Cover). Click Finish.
+
+![](./img/Ex04-05.png)
+
+![](./img/Ex04-06.png)
 
 You have now entered a pseudo-colored layer to the LULC Classification area in the Irvine California Map displayed in the Maps tree. The symbol for this layer is shown accompanying the layer’s tree
 entry. 
