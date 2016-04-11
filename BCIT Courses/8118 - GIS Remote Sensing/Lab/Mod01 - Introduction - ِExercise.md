@@ -74,8 +74,58 @@ Pseudo-color layers are used to display a thematic map. The image you are displa
 
 ##### Click on the plus next to the pseudo-color layer to view the legend. You should see a legend like the partial display below.
 
+![](./img/Ex04-07.png)
+
 ##### Look at the image and the legend; notice the different colors for the different land use/land cover classifications.
 
 ### 5 - Geomatica Project Files
+
+Focus project files (GPR file extension) will store Maps, Areas, Layers, display settings and ‘map’ elements.
+
+GPR files also include all path information to your data, your viewing preferences, such as the last zoom level you worked at, and all associated map elements.
+
+Project files DO NOT contain the actual data (rasters or vectors). They contain pointers to the data.
+
+### 6 - Reorder map areas
+
+##### Click on the Color Infrared Composite area entry in the Maps tree.
+
+##### Keep holding the mouse button down while you drag the Color Infrared Composite area to the top of the Maps tree above the LULC Classification area entry.
+
+### 7 - Activate map areas
+
+A map area is visibe when it is active.
+
+In Area view mode only one area is visible at a time.
+
+### 8 Create a Map Layout
+
+Map View mode allows you to view both areas at once and design a ‘map’.
+
+##### Currently, the View Mode palette is in Area View (image below):
+
+![](./img/Ex08-01.png)
+
+##### Switch to Map View Mode.
+
+![](./img/Ex08-02.png)
+
+![](./img/Ex08-03.png)
+
+##### Click the Color Infrared (CIR) Composite area in the Maps tree.
+
+##### Click and drag one of the corner anchors to resize (make smaller) the imagery. 
+
+![](./img/Ex08-04.png)
+
+##### Repeat the above step for the LULC area making it the same size as the CIR one. 
+
+![](./img/Ex08-05.png)
+
+##### Move the mouse cursor to the edge of the frame surrounding the imagery in the viewer until its shape changes to the four-arrow cursor. Now click and drag the selected area to a new location in the viewer.
+
+##### Click on the Color Infrared Composite area in the Maps tree and repeat; moving the imagery within the map until both areas are completely visible (below).
+
+![](./img/Ex08-07.png)
 
 
