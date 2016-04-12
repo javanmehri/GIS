@@ -188,7 +188,6 @@ although the layer was removed from the display the eltoro.pix file is still ope
 
 ##### Save your project.
 
-### 10 - Explore the Files Tree
 
 
 
