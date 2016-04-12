@@ -26,8 +26,6 @@ The Maps tree should have two entries: one for a map and one for an area within 
 
 ##### Double-click the new area layer to open the Area Properties dialog box. In the Name text field in the Generic section on the General tab enter the following text: “Color Infrared Composite”. Click OK to accept the text change, and close the dialog box.
 
-![](./img/Ex02-03.png)
-
 ### 3 - Add Data to a map
 
 ##### On the maps toolbar, click the Add Layer button to open the Add Layer Wizard. Select the RGB option then click next>. Click Browse to locate and open irvine.pix from your working directory. Once opened, a list of all the available channels in irvine.pix will appear in the list box. Select (click once on) channels 5, 3 and 1 for the red, green and blue color guns, respectively. Click Finish.
@@ -128,4 +126,73 @@ Map View mode allows you to view both areas at once and design a ‘map’.
 
 ![](./img/Ex08-07.png)
 
+If you want to view one area at a time, then you must switch from Map View mode to Area View mode.
 
+As just demonstrated, the data in the viewer can be displayed in one of two states: Area View mode or Map View mode.
+
+**Area View** mode is considered the “geographic” view. In Area View mode, you are restricted to “seeing” a single geographic area at a time (as selected in the Maps tree). Map surround information is not visible.
+
+**Map View** mode is how the current map would look on a sheet of paper when printed. This is akin to the Print Preview mode in Microsoft Word. In Map View mode, you can see the paper and the relative positions of all the elements on your map. 
+
+All processing operations (menu commands, toolbar functions and Algorithm librarian programs) are available, regardless of the current mode.
+
+### 9 - Copy, Paste and Remove a layer
+
+##### Make sure you are in area view mode.
+
+##### Select (click on) the LULC Classification area (notice that it now occupies the viewer).
+
+##### On the Maps palette, choose the Add Layer button to open the Add Layer Wizard. Select the Grayscale option then click next>. Click Browse to locate and open the file eltoro.pix. Once opened, a list of all the available image channels in eltoro.pix will appear in the list box. Select channel 1, then click Finish.
+
+![](./img/Ex09-01.png)
+
+![](./img/Ex09-02.png)
+
+![](./img/Ex09-03.png)
+
+You have now entered a grayscale image layer to the LULC Classification area in the Maps tree.
+
+We made a mistake by adding the grayscale image to the LULC Classification area. We really had intended to add it to the Color Infrared Composite area. 
+
+##### Select the Maps tree entry for the grayscale image of eltoro.pix (it will be highlighted).
+
+##### Rt- click and select Cut. OR select the CUT Button
+
+![](./img/Ex09-04.png)
+
+##### Next, select the Color Infrared Composite area (it will now be highlighted in yellow and it will now occupy the viewer).
+
+##### Then on the Clipboard palette, click Paste. (OR rt-click and select paste)
+
+![](./img/Ex09-05.png)
+
+![](./img/Ex09-06.png)
+
+Now you want to remove the greyscale layer you just added.
+
+##### Right-click the grayscale layer. From the context menu, select the Remove option. The Maps tree entry and image from the view area are both removed.
+
+![](./img/Ex09-07.png)
+
+![](./img/Ex09-08.png)
+
+although the layer was removed from the display the eltoro.pix file is still open in your project. In order to close the file you must remove it from your project from the files tree.
+
+##### Switch to the FILES TREE (click on files tab)
+
+![](./img/Ex09-09.png)
+
+##### RT-CLICK on the ELTORO file and REMOVE.
+
+![](./img/Ex09-09.png)
+
+##### Save your project.
+
+### 10 - Explore the Files Tree
+
+
+
+
+
+
+￼
